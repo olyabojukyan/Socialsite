@@ -5,7 +5,7 @@
  */
 
 const app = require('../app');
-const debug = require('debug')('socialpage:server');
+const debug = require('debug')('socialsite:server');
 const http = require('http');
 
 /**

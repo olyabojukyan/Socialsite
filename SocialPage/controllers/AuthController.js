@@ -38,7 +38,8 @@ class AuthController{
                 username:user.username
             }
             let accessToken= jwt.sign(payload,process.env.jwtAccessSecret,{expiresIn:process.env.jwtAccessSecretLT})
-            res.json({user,accessToken})
+
+             res.json({user,accessToken})
 
         }catch(err){
             res.json({error:err.message})

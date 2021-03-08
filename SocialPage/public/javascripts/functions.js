@@ -2,7 +2,7 @@
 const homeFunction=(userInfo)=>{
     mainContainer.innerHTML=""
     mainContainer.insertAdjacentHTML("afterbegin",`<div class="container-fluid text-center  py-5" style="min-height: 100vh;">
-    <button id="logOut" class="float-right">LogOut</button>
+    <button id="logOut" class="float-right">LogOu t</button>
     <p>
     <a href="/auth/delete"><button  class="float-right">deleteAccount</button></a>
     </p>

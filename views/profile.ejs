@@ -1,0 +1,12 @@
+
+<%- include('components/header.ejs')   -%>
+<div class="container-fluid text-center bg-secondary py-5">
+  <div class="row">
+      <div class="col-md-6 pt-5" id="profile">
+             <p hidden id="profileId"><%= userInfo._id %></p>
+            <h1><%=  userInfo.username %></h1>
+            <img src="/images/<%= userInfo.image  %>" id="homeImg" width="200" height="200“>               
+   </div>
+  </div>
+</div>
+<script src="/javascript/profile"></script>

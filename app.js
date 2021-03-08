@@ -3,7 +3,11 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const mongoose=require("mongoose")
+const mongoose=require("mongoose");
+const multer=require("multer")
+const sharp = require('sharp');
+const fs=require("fs")
+
 require("dotenv").config()
 
 
